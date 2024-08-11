@@ -96,7 +96,7 @@ const Education =() =>{
                         <div className="text-white text-center flex flex-col gap-4 md:w-2/3 pb-20">
                                 <h1 className="text-4xl">Education</h1>
                                 <h3 className="text-2xl">Basic Qualification and Certifications</h3>
-                                <p className="opacity-50 lg:w-[90%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam maxime recusandae nesciunt molestiae, eum aliquam voluptatibus doloribus dicta eius.</p>
+                                <p className="opacity-50 lg:w-[90%]"> I am currently pursuing [Engineering] in [Computer Science] from [SSBT COET Jalgaon]. Demonstrating my commitment to continuous learning and professional development. My academic background and certifications have equipped me with a strong foundation....</p>
                         </div>
 
                 </div>

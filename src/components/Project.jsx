@@ -25,7 +25,7 @@ const Project =()=>{
                                 </div>
                                 <div className='px-2 flex flex-col gap-2 md:w-[50%]'>
                                     <h1 className='text-3xl text-white text-center'>Projects</h1>
-                                    <p className='text-lg opacity-40 text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sed voluptates, ipsa laborum sunt veniam. Unde libero debitis necessitatibus?</p>
+                                    <p className='text-lg opacity-40 text-white text-center'>Below i have mentioned some of my Projects that i have completed and the ones that i am currently doing</p>
                                 </div>
                             </div>
                                 <h1 className='text-center text-white text-3xl my-20'>Projects</h1>
@@ -33,7 +33,7 @@ const Project =()=>{
                                 <div className="relative border-2 border-white/25  bg-white/10 backdrop-filter backdrop-blur-lg shadow-lg w-[95%] h-36 p-2 md:w-[80%] lg:w-[70%] transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-500">
                                     <div>
                                       <h1 className="text-white text-2xl">Paytm's UI Clone</h1>
-                                      <p className='text-gray-500'>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                                      <p className='text-gray-500'>Created the frontend design clone of the paytm's website </p>
                                     </div>
                                     <div>
                                     <div className="absolute left-3 bottom-3 flex gap-2 text-3xl">
@@ -48,8 +48,8 @@ const Project =()=>{
                             </div>
                                 <div className='relative border-2 border-white/25  bg-white/10 backdrop-filter backdrop-blur-lg shadow-lg w-[95%]  h-36 p-2 md:w-[80%] lg:w-[70%]'>
                                     <div >
-                                        <h1 className='text-white text-2xl '>RRA</h1>
-                                        <p className='text-gray-500'>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                                        <h1 className='text-white text-2xl '>Ransomware Readiness Assessment Tool</h1>
+                                        <p className='text-gray-500'>Created a readiness tool for the assessment of ransomware for organizations </p>
                                     </div>
                                     <div>
                                         <div className=' absolute left-3 bottom-3 flex gap-4 text-3xl'>
@@ -65,7 +65,7 @@ const Project =()=>{
                                 <div className='relative border-2 border-white/25  bg-white/10 backdrop-filter backdrop-blur-lg shadow-lgw-[95%]  h-36 p-2 md:w-[80%] lg:w-[70%]'>
                                     <div >
                                         <h1 className='text-white text-2xl '>Nestify</h1>
-                                        <p className='text-gray-500'>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                                        <p className='text-gray-500'>Created a tool for the serach of better accomodations for the tourists</p>
                                     </div>
                                     <div>
                                         <div className=' absolute left-3 bottom-3 flex gap-4 text-3xl'>

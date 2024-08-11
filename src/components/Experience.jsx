@@ -19,7 +19,7 @@ const Experience =()=>{
                                 <div className='px-2 flex flex-col gap-2 md:w-[50%]'>
                                     <h1 className='text-3xl text-white text-center'>Experience</h1>
                                     <h1 className='text-2xl text-white text-center'>Work and internship</h1>
-                                    <p className='text-lg opacity-40 text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sed voluptates, ipsa laborum sunt veniam. Unde libero debitis necessitatibus?</p>
+                                    <p className='text-lg opacity-40 text-white text-center'>Below i have mentioned some of my internships that i have completed and the ones that i am currently doing</p>
                                 </div>
                             </div>
                                 

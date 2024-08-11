@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { useGSAP } from "@gsap/react";
+import { useNavigate } from 'react-router-dom';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -22,6 +23,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 import gsap from "gsap";
+import { redirect } from "react-router-dom";
 
 
 
@@ -134,6 +136,14 @@ const Home =()=>{
         )
     })
 
+    const navigate = useNavigate();
+
+   const redirectToContactPage=()=>{
+    
+        navigate('/contact');
+        
+    }
+
     return(
         <>
 
@@ -152,7 +162,7 @@ const Home =()=>{
                                 <a target="_blank" href="https://www.instagram.com/shrikant_rajliwal/"> <FaInstagram  className="text-red-500" /></a>
                             
                             </div>
-                            <button className="border-2  bg-cyan-500 shadow-lg shadow-cyan-500/50 bg-gradient-to-r text-white from-teal-400 to-blue-500  py-1  w-40 text-lg  mt-6">Contact Me</button>
+                            <button onClick={redirectToContactPage} className="border-2  bg-cyan-500 shadow-lg shadow-cyan-500/50 bg-gradient-to-r text-white from-teal-400 to-blue-500  py-1  w-40 text-lg  mt-6">Contact Me</button>
 
                     </div>
 
